@@ -1,9 +1,14 @@
 <div style="text-align:center">
-  <h1>Let's explore {{ title }}</h1>
+  <h1>Angular Modules with {{ title }}</h1>
   <button routerLink="/rest">Rest Office</button>
   <button routerLink="/graphql">GraphQL Office</button>
 
 
   <router-outlet></router-outlet>
+
+
+  <button (click)="load()">Load Lazy</button>
+
+  <ng-template #container></ng-template>
 
 </div>
