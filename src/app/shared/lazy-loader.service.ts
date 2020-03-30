@@ -1,5 +1,5 @@
-import {Injectable, Injector, Compiler, Inject, NgModuleFactory, Type, ViewContainerRef, ComponentRef} from '@angular/core';
-import { LAZY_WIDGETS } from './tokens';
+import {Injectable, Injector, Compiler, Inject, NgModuleFactory, Type, ViewContainerRef} from '@angular/core';
+import {LAZY_WIDGETS} from './tokens';
 
 @Injectable({
   providedIn: 'root'

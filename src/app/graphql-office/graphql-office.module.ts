@@ -1,6 +1,6 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { GraphqlOfficeComponent } from './graphql-office.component';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {GraphqlOfficeComponent} from './graphql-office.component';
 import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [{
@@ -15,4 +15,5 @@ const routes: Routes = [{
     RouterModule.forChild(routes)
   ]
 })
-export class GraphqlOfficeModule { }
+export class GraphqlOfficeModule {
+}
